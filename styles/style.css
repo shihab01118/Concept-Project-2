@@ -84,6 +84,44 @@
     font-weight: 400;
     line-height: 26px;
 }
+
 .fa-check {
     color: rgb(65, 212, 65);
+}
+
+/* plan section */
+.plan-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px 100px;
+    gap: 50px;
+}
+
+.plan-topic {
+    text-align: center;
+}
+
+.plan-icon {
+    width: 90px;
+    height: 90px;
+}
+
+.plan-topic-title {
+    color: #151414;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.plan-topic-text {
+    color: #737272;
+    font-size: 18px;
+    font-weight: 500;
 }
