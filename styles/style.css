@@ -36,7 +36,7 @@
     margin: 30px 0;
 }
 
-.btn-banner {
+.btn-primary {
     font-size: 20px;
     font-weight: 600;
     color: white;
@@ -100,7 +100,7 @@
 .plan-container {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px 100px;
+    margin: 50px 200px 150px;
     gap: 50px;
 }
 
@@ -124,4 +124,28 @@
     color: #737272;
     font-size: 18px;
     font-weight: 500;
+}
+
+.plan-bottom {
+    background: url('../images/gradient2.png'), url('../images/watch.png');
+    margin: 0 200px 120px;
+    padding: 60px 0 60px 65px;
+    border-radius: 10px;
+}
+
+.plan-bottom-title {
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.btn-secondary {
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    padding: 20px 35px;
 }
