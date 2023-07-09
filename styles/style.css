@@ -4,6 +4,7 @@
     box-sizing: border-box;
     /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Work Sans', sans-serif;
+    list-style: none;
 }
 
 /* banner section */
@@ -43,4 +44,46 @@
     border-radius: 5px;
     background: #F15B22;
     border: none;
+}
+
+/* past section */
+.past {
+    display: flex;
+    margin-left: 250px;
+    padding: 100px 0;
+    align-items: center;
+    gap: 90px;
+    margin-right: 200px;
+}
+
+.image {
+    width: 450px;
+}
+
+.past-text {
+    max-width: 425px;
+}
+
+.past-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.past-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 25px 0 15px;
+    line-height: 26px;
+}
+
+.point {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.fa-check {
+    color: rgb(65, 212, 65);
 }
